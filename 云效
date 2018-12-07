@@ -7,3 +7,14 @@
 如何构建生成Docker镜像
 
 阿里云远程连接密码: 429138
+
+第一步 构建
+在<应用名>.release 配置构建规则 规则语法在 可配置键的完整列表 根据配置表中的规则构建打
+包。
+<应用名>.release是键-值形式的，例如：
+code.language=golang1.9        //支持的语言
+build.output=target/abc.war
+键可以带有前缀
+docker.file带testing前缀，写为testing.docker.file
+带变量
+docker.tag=${PACKAGE_LABEL}_${TIMESTAMP} 详见使用传入参数改变构建行为
