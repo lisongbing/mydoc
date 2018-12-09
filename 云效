@@ -13,8 +13,12 @@
 包。
 <应用名>.release是键-值形式的，例如：
 code.language=golang1.9        //支持的语言
+build.command=go install XX
 build.output=target/abc.war
 键可以带有前缀
 docker.file带testing前缀，写为testing.docker.file
 带变量
 docker.tag=${PACKAGE_LABEL}_${TIMESTAMP} 详见使用传入参数改变构建行为
+
+第二步 部署
+注意脚本及配置文件的权限，有可能出现权限导致失败。
