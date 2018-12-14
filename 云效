@@ -18,3 +18,5 @@ build.output=target/abc.war
 docker.file带testing前缀，写为testing.docker.file
 带变量
 docker.tag=${PACKAGE_LABEL}_${TIMESTAMP} 详见使用传入参数改变构建行为
+
+JMeter 日志
