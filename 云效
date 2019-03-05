@@ -23,3 +23,4 @@ docker.tag=${PACKAGE_LABEL}_${TIMESTAMP} 详见使用传入参数改变构建行
 JMeter 日志
 https://www.cnblogs.com/imyalost/p/7062784.html?utm_source=itdadao&utm_medium=referral
 https://octoperf.com/blog/2017/03/09/how-to-extract-data-from-json-response-using-jmeter/
+http://jsonpath.herokuapp.com/ jmeter json提取工具
