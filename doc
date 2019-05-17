@@ -38,3 +38,15 @@ json :http://70data.net/1876.html  介绍json
 
 https://www.freeluffy.com/vultr-vps-ss/?tdsourcetag=s_pcqq_aiomsg //翻墙
 https://www.open-open.com/lib/view/open1396063913278.html#Networking  golang
+
+Go代码评估工具：
+
+goreporter – 生成Go代码质量评估报告
+dingo-hunter – 用于在Go程序中找出deadlocks的静态分析器
+flen – 在Go程序包中获取函数长度信息
+go/ast – Package ast声明了关于Go程序包用于表示语法树的类型
+gocyclo – 在Go源代码中测算cyclomatic函数复杂性
+Go Meta Linter – 同时Go lint工具且工具的输出标准化
+go vet – 检测Go源代码并报告可疑的构造
+ineffassign – 在Go代码中检测无效赋值
+safesql – Golang静态分析工具，防止SQL注入
