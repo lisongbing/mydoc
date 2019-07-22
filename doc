@@ -49,4 +49,7 @@ gocyclo – 在Go源代码中测算cyclomatic函数复杂性
 Go Meta Linter – 同时Go lint工具且工具的输出标准化
 go vet – 检测Go源代码并报告可疑的构造
 ineffassign – 在Go代码中检测无效赋值
+
+
+  我爱搜盘:搜索百度网盘的资料
 safesql – Golang静态分析工具，防止SQL注入
