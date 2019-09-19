@@ -64,4 +64,7 @@ ineffassign – 在Go代码中检测无效赋值
   http://rpmfind.net
   http://rpm.phone.net
 
+  dns:
+  zytrax.com/books/dns
+
 safesql – Golang静态分析工具，防止SQL注入
